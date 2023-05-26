@@ -1,0 +1,12 @@
+<form (ngSubmit)="onStudentSearch()">
+  <label>
+    Rechercher un étudiant:
+    <input
+      name="student"
+      type="text"
+      placeholder="Michel Durand"
+      [(ngModel)]="nameValue"
+    />
+  </label>
+  <button type="submit">Rechercher</button>
+</form>
